@@ -203,7 +203,7 @@ Cart
 }
 .clear-btn:hover {
   background: var(--clr-red-light);
-  color: var(--clr-red-dark);
+  color: var(--clr-white);
   border-color: var(--clr-red-light);
 }
 /*
@@ -242,7 +242,7 @@ Cart Item
   transition: var(--transition);
 }
 .remove-btn:hover {
-  color: var(--clr-primary-light);
+  color: var(--clr-red-light);
 }
 .amount-btn {
   width: 1.5rem;
@@ -266,4 +266,8 @@ hr {
   background: var(--clr-grey-5);
   border-color: transparent;
   border-width: 0.25px;
+}
+
+.trash-btn {
+  margin-bottom: -5px;
 }
