@@ -1,6 +1,7 @@
 import React from 'react'
 import CartItem from './CartItem'
 import { useGlobalContext } from './context'
+import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined';
 
 const CartContainer = () => {
   const { cart, total, clearCart } = useGlobalContext()
@@ -37,6 +38,7 @@ const CartContainer = () => {
         </div>
         <button className='btn clear-btn' onClick={clearCart}>
           clear cart
+          <DeleteOutlinedIcon className='trash-btn'/>
         </button>
       </footer>
     </section>
