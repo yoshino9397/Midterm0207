@@ -20,7 +20,7 @@ const CartContainer = () => {
     <section className='cart'>
       {/* cart header */}
       <header>
-        <h2>your bag</h2>
+        <h2>Which phone do you want ?</h2>
       </header>
       {/* cart items */}
       <div>
